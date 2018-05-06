@@ -1,3 +1,4 @@
+
 class Triangle
   def initialize(a:, b: ,c:)
     array = [a,b,c]
@@ -40,4 +41,9 @@ class Triangle
   def check_triganle
     @length[2] >= (@length[0] + @length[1])
   end
+end
+
+if ARGV.length == 3
+  triangle = Triangle.new(a:ARGV[0] ,b:ARGV[1],c:ARGV[2])
+  puts triangle.name
 end
