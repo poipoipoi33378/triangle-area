@@ -1,0 +1,45 @@
+
+An error occurred while loading ./spec/triangle_spec.rb.
+Failure/Error: load file
+
+SyntaxError:
+  /Users/seiichi/lesson/triangle/spec/triangle_spec.rb:7: syntax error, unexpected keyword_end, expecting ')'
+  /Users/seiichi/lesson/triangle/spec/triangle_spec.rb:11: syntax error, unexpected keyword_end, expecting ')'
+  /Users/seiichi/lesson/triangle/spec/triangle_spec.rb:15: syntax error, unexpected keyword_end, expecting ')'
+  /Users/seiichi/lesson/triangle/spec/triangle_spec.rb:19: syntax error, unexpected keyword_end, expecting ')'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1954:in `load'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1954:in `load_spec_file_handling_errors'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1496:in `block in load_spec_files'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1494:in `each'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1494:in `load_spec_files'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:100:in `setup'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:86:in `run'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rspec-core-3.7.1/exe/rspec:4:in `<top (required)>'
+# /Users/seiichi/.rbenv/versions/2.3.3/bin/rspec:22:in `load'
+# /Users/seiichi/.rbenv/versions/2.3.3/bin/rspec:22:in `<top (required)>'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:75:in `load'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:75:in `kernel_load'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:28:in `run'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/cli.rb:424:in `exec'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/cli.rb:27:in `dispatch'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/cli.rb:18:in `start'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/exe/bundle:30:in `block in <top (required)>'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/friendly_errors.rb:122:in `with_friendly_errors'
+# /Users/seiichi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.16.1/exe/bundle:22:in `<top (required)>'
+# /Users/seiichi/.rbenv/versions/2.3.3/bin/bundle:22:in `load'
+# /Users/seiichi/.rbenv/versions/2.3.3/bin/bundle:22:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+No examples found.
+
+Finished in 0.00048 seconds (files took 0.13749 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
