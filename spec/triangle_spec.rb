@@ -1,5 +1,24 @@
 require File.expand_path(File.dirname(__FILE__) + '/../triangle')
 
+describe '#judge' do
+  it '2, 3, 4'do
+    triangle = Triangle.new(a:2,b:3,c:4)
+    expect(triangle.judge).to eq '不等辺三角形ですね！'
+  end
+  it '2, 2, 1'do
+    triangle = Triangle.new(a:2,b:2,c:1)
+    expect(triangle.judge).to eq '二等辺三角形ですね！'
+  end
+  it '1, 1, 1'do
+    triangle = Triangle.new(a:1,b:1,c:1)
+    expect(triangle.judge).to eq '正三角形ですね！'
+  end
+  it '1, 2, 3'do
+    triangle = Triangle.new(a:1,b:2,c:3)
+    expect(triangle.judge).to eq '三角形じゃないです＞＜'
+  end
+
+end
 describe '#name' do
   context 'a,bを固定。cの長さを増やしていき境界値でのテスト' do
     context '二等辺三角形　角度0度ー＞180度' do
